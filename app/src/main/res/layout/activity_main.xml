@@ -1,0 +1,41 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Bops" />
+
+    <TextView
+        android:id="@+id/sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_title"
+        android:text="music app"
+        android:textColor="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/music_icon"
+        android:layout_width="152dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:src="@drawable/musicnote"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/shuffle_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/music_icon"
+        android:text="Shuffle"
+        android:textColor="@color/colorAccent" />
+
+
+</RelativeLayout>
